@@ -1,0 +1,13 @@
+% Model in short notation; default parameters vector, can be omitted
+% these two fields must be separated with the sign ';'.
+times2_(plus_(plus2_(mult_(x1),mult_(expl_(times2_(x1,x1))))),sqrta_(x2)); []
+times2_(parabola_(x1),parabola_(x2)); []
+times2_(plus_(plus2_(mult_(x1),mult_(expl_(times2_(x1,x1))))),times2_(parabola_(x2),linear_(x2))); []
+
+
+parabola_(times2_(plus_(plus2_(mult_(expl_(times2_(x1,x2))),sqrt_(times2_(x2,x2)))),sqrta_(x2))); []
+parabola_(times2_(plus_(plus_(expl_(times2_(x2,plus_(x2))))),sqrta_(x2))); []
+times2_(parabola_(expl_(times2_(x1,x2))),parabola_(normal_(parabola_(expl_(times2_(x1,x2)))))); []
+
+
+% plus2_(plus_(inv_(omexpl_(times2_(frac2_(minus2_(ln_(x1),ln_(x2)),sqrt_(x2)),frac2_(minus2_(ln_(x1),ln_(x2)),sqrt_(x2)))))),mult_(arctanl_(mult_(frac2_(minus2_(ln_(x1),ln_(x2)),sqrt_(x2))))))); []

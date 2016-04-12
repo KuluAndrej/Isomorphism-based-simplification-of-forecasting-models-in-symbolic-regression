@@ -1,0 +1,3 @@
+% Model in short notation; default parameters vector, can be omitted
+% these two fields must be separated with the sign ';'.
+times2_(plus_(plus2_(mult_(x1),mult_(expl_(times2_(x1,x1))))),sqrta_(x2)); []
